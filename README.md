@@ -72,7 +72,7 @@ Import the project into the pyCharm and select python3.
 To run the Python code, right-click on the file and select "Run <TodoistAutoTest.py>".
 
 ## To run the automation test
-1. Turn on the virtual device, install the Todoist.apk and leave it ON.
+1. Turn on the virtual device, install the Todoist.apk : https://todoist.en.uptodown.com/android and leave the virtual device ON.
 2. In your console, get the connect virtual device by calling: 
 	"adb devices" and copy the name
 2. In your console, start the appium server by calling: appium
@@ -80,6 +80,5 @@ To run the Python code, right-click on the file and select "Run <TodoistAutoTest
 4. Make sure the appium server started listening and android virtual device is started
 5. Choose the TodistAutoTest.py and click run. The virtual device will be moving as the auto script in the py file. The test result will be shown in the console.The assertion is purely done by comparing the api response and the actual app UI in this project. 
 It can be integrated with other testing framework to enhace the have more testing, assertion.
-
 
 
